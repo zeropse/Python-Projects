@@ -16,7 +16,6 @@ df["Order Year"] = df["Order Date"].dt.year
 df["Order Day of the Week"] = df["Order Date"].dt.dayofweek
 # print(df)
 df.query("`Order Month`==11")
-
 # Calculating Monthly Sales
 Monthly_Sales = df.groupby("Order Month")["Sales"].sum().reset_index()
 # print(Monthly_Sales)

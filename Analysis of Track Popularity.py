@@ -7,7 +7,6 @@ playlist_data = path
 missing_values = playlist_data.isnull().sum()
 
 playlist_data_cleaned = playlist_data.dropna()
-
 # print(playlist_data_cleaned)
 
 plt.figure(figsize=(9, 7))

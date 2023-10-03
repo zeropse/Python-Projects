@@ -8,7 +8,6 @@ df = pd.read_csv(r"/Users/srijitdey/Documents/project_csvs/bestsellers with cate
 
 df = df.rename(columns={"Name": "Book Title"})
 data_frame = df
-
 # print(df.info())
 # print(df.isnull().sum())
 # print(df.describe())

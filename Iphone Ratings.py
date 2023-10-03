@@ -4,7 +4,6 @@ import plotly.express as px
 
 
 iphone_data = pd.read_csv(r"/Users/srijitdey/Documents/project_csvs/apple_products.csv")
-
 # print(iphone_data.head())
 # print(iphone_data.describe())
 
