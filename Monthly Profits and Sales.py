@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-data_frame = pd.read_csv(r"/Users/srijitdey/Documents/project_csvs/Sample - Superstore.csv", encoding="windows-1252")
+data_frame = pd.read_csv(r"C:\Users\deysr\OneDrive\Documents\Github\Python-Projects\csv\Sample - Superstore.csv", encoding="windows-1252")
 df = data_frame
 # print(df.head())
 # print(df.index)

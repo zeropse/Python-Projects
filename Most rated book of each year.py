@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df = pd.read_csv(r"/Users/srijitdey/Documents/project_csvs/bestsellers with categories.csv")
+df = pd.read_csv(r"C:\Users\deysr\OneDrive\Documents\Github\Python-Projects\csv\bestsellers with categories.csv")
 # print(df.head())
 # print(df.shape)
 

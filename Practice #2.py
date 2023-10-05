@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-path = pd.read_csv(r"/Users/srijitdey/Documents/project_csvs/playlist_2010to2022.csv")
+path = pd.read_csv(r"C:\Users\deysr\OneDrive\Documents\Github\Python-Projects\csv\playlist_2010to2022.csv")
 
 playlist_data = path
 missing_values = playlist_data.isnull().sum()

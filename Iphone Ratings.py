@@ -3,7 +3,7 @@ import numpy as np
 import plotly.express as px
 
 
-iphone_data = pd.read_csv(r"/Users/srijitdey/Documents/project_csvs/apple_products.csv")
+iphone_data = pd.read_csv(r"C:\Users\deysr\OneDrive\Documents\Github\Python-Projects\csv\apple_products.csv")
 # print(iphone_data.head())
 # print(iphone_data.describe())
 
